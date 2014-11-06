@@ -70,9 +70,9 @@ Default: `false`
 Returns `true` even if the string includes [octal/hexadecimal expressions](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#Integers) and [exponential notation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#Floating-point_literals). (By default it returns `false` in that case.)
 
 ```javascript
-isStringInt('01'); //=> true
-isStringInt('0x1'); //=> true
-isStringInt('0e+0'); //=> true
+isStringInt('01', {parseLiteral: true}); //=> true
+isStringInt('0x1', {parseLiteral: true}); //=> true
+isStringInt('0e+0', {parseLiteral: true}); //=> true
 ```
 
 ## License
