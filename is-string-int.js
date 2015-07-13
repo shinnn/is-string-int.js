@@ -2,7 +2,6 @@
  * is-string-int | MIT (c) Shinnosuke Watanabe
  * https://github.com/shinnn/is-string-int.js
 */
-
 window.isStringInt = function isStringInt(str, option) {
   'use strict';
 
@@ -13,7 +12,10 @@ window.isStringInt = function isStringInt(str, option) {
   }
 
   if (typeof str !== 'string') {
-    throw new TypeError(str + ' is not a string. Argument must be a string.');
+    throw new TypeError(
+      str +
+      ' is not a string. Argument must be a string to be checked if it represents an integer.'
+    );
   }
 
   var num = Number(str);
