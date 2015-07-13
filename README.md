@@ -1,8 +1,10 @@
 # is-string-int
 
+[![NPM version](https://img.shields.io/npm/v/is-string-int.svg)](https://www.npmjs.com/package/is-string-int)
+[![Bower version](https://img.shields.io/bower/v/is-string-int.svg)](https://github.com/shinnn/is-string-int.js/releases)
 [![Build Status](https://travis-ci.org/shinnn/is-string-int.js.svg?branch=master)](https://travis-ci.org/shinnn/is-string-int.js)
 [![Build status](https://ci.appveyor.com/api/projects/status/j4in0k0pwp20a0rj?svg=true)](https://ci.appveyor.com/project/ShinnosukeWatanabe/is-string-int-js)
-[![Coverage Status](https://img.shields.io/coveralls/shinnn/is-string-int.js.svg)](https://coveralls.io/r/shinnn/is-string-int.js)
+[![Coverage Status](https://coveralls.io/repos/shinnn/is-string-int.js/badge.svg?branch=master&service=github)](https://coveralls.io/github/shinnn/is-string-int.js?branch=master)
 [![devDependency Status](https://david-dm.org/shinnn/is-string-int.js/dev-status.svg)](https://david-dm.org/shinnn/is-string-int.js#info=devDependencies)
 
 Check if a string represents an integer
@@ -16,22 +18,16 @@ isStringInt('1.23'); //=> false
 
 ### Package managers
 
-#### [npm](https://www.npmjs.org/) [![NPM version](https://badge.fury.io/js/is-string-int.svg)](https://www.npmjs.org/package/is-string-int)
+#### [npm](https://www.npmjs.com/)
 
-```sh
+```
 npm install is-string-int
 ```
 
-#### [Bower](http://bower.io/) [![Bower version](https://badge.fury.io/bo/is-string-int.svg)](https://github.com/shinnn/is-string-int.js/releases)
+#### [Bower](http://bower.io/)
 
-```sh
-bower install is-string-int
 ```
-
-#### [Duo](http://duojs.org/)
-
-```javascript
-var isStringInt = require('shinnn/is-string-int.js');
+bower install is-string-int
 ```
 
 ### Standalone
@@ -67,7 +63,7 @@ isStringInt('NaN'); //=> false
 Type: `Boolean`  
 Default: `false`
 
-Returns `true` even if the string includes [octal/hexadecimal expressions](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#Integers) and [exponential notation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#Floating-point_literals). (By default it returns `false` in that case.)
+Returns `true` even if the string includes [octal/hexadecimal expressions](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#Integers) and [exponential notation](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Values,_variables,_and_literals#Floating-point_literals). (By default it returns `false` in that case.)
 
 ```javascript
 isStringInt('01', {parseLiteral: true}); //=> true
@@ -77,6 +73,6 @@ isStringInt('0e+0', {parseLiteral: true}); //=> true
 
 ## License
 
-Copyright (c) 2014 [Shinnosuke Watanabe](https://github.com/shinnn)
+Copyright (c) 2014 - 2015 [Shinnosuke Watanabe](https://github.com/shinnn)
 
 Licensed under [the MIT License](./LICENSE).
