@@ -1,6 +1,6 @@
 {
   "name": "is-string-int",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if a string represents an integer",
   "repository": "shinnn/is-string-int.js",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
