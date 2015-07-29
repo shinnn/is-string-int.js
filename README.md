@@ -3,7 +3,6 @@
 [![NPM version](https://img.shields.io/npm/v/is-string-int.svg)](https://www.npmjs.com/package/is-string-int)
 [![Bower version](https://img.shields.io/bower/v/is-string-int.svg)](https://github.com/shinnn/is-string-int.js/releases)
 [![Build Status](https://travis-ci.org/shinnn/is-string-int.js.svg?branch=master)](https://travis-ci.org/shinnn/is-string-int.js)
-[![Build status](https://ci.appveyor.com/api/projects/status/j4in0k0pwp20a0rj?svg=true)](https://ci.appveyor.com/project/ShinnosukeWatanabe/is-string-int-js)
 [![Coverage Status](https://coveralls.io/repos/shinnn/is-string-int.js/badge.svg?branch=master&service=github)](https://coveralls.io/github/shinnn/is-string-int.js?branch=master)
 [![devDependency Status](https://david-dm.org/shinnn/is-string-int.js/dev-status.svg)](https://david-dm.org/shinnn/is-string-int.js#info=devDependencies)
 
