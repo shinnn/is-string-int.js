@@ -9,9 +9,9 @@
     "is-string-int-cjs.js"
   ],
   "scripts": {
-    "pretest": "eslint --config node_modules/@shinnn/eslintrc/rc.json --ignore-path .gitignore .",
-    "test": "node --throw-deprecation --trace-sync-io --track-heap-objects --harmony_arrow_functions test.js",
-    "coverage": "node --harmony_arrow_functions node_modules/.bin/istanbul cover test.js",
+    "pretest": "eslint --config @shinnn --ignore-path .gitignore .",
+    "test": "node --throw-deprecation --trace-sync-io --track-heap-objects test.js",
+    "coverage": "istanbul cover test.js",
     "coveralls": "${npm_package_scripts_coverage} && istanbul-coveralls"
   },
   "license": "MIT",
@@ -25,10 +25,10 @@
     "client-side"
   ],
   "devDependencies": {
-    "@shinnn/eslintrc": "^1.0.0",
-    "eslint": "^0.24.1",
-    "istanbul": "^0.3.17",
+    "@shinnn/eslint-config": "^1.1.0",
+    "eslint": "^1.4.3",
+    "istanbul": "^0.3.20",
     "istanbul-coveralls": "^1.0.3",
-    "tape": "^4.0.0"
+    "tape": "^4.2.0"
   }
 }

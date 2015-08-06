@@ -13,7 +13,7 @@ module.exports = function isStringInt(str, option) {
 
   if (typeof str !== 'string') {
     throw new TypeError(
-      str +
+      String(str) +
       ' is not a string. Argument must be a string to be checked if it represents an integer.'
     );
   }
